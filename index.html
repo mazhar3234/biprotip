@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			title {
+				font-family: 'Lato', sans-serif;
+			}
+		</style>
+		<title>Biprotip</title>
+
+		<!-- ==============================================
+		CSS
+		=============================================== -->
+		<link href="css/animate.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300,200,100,600,700,800,900' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<!-- ==============================================
+		slider
+		=============================================== -->
+		<section class="slider">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 logo">
+						<a href="#"> <img src="images/logo (3).png" /></a>
+					</div>
+					<div class="col-md-12 slider-content">
+						<h1>We are <span class="deeppink rotate">experienced, relentless, handsome</span>.</h1>
+
+						<div class="stroke">
+
+						</div>
+						<p class="wow fadeInDown" data-wow-duration="3s">
+							We're sorry, our website is now under construction! Please enter your email
+							<br />
+							below and we'll let you know once we're up and running.
+						</p>
+						<form class="mail wow slideInDown" data-wow-duration="4s">
+							<input type="text" name="subscribe-email" placeholder="Enter your e-mail">
+							<input type="submit" value="Notify me" name="subscribe-submit">
+
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- ==============================================
+		service
+		=============================================== -->
+		<section class="service">
+			<div class="container padding-top-bottom">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-4 wow fadeInLeft"data-wow-duration="1.5s"data-wow-delay="1s">
+							<div class="icon">
+								<i class="fa fa-thumbs-up"></i>
+
+							</div>
+							<div class="details">
+								<h5>You'll love it</h5>
+								<p>
+									One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
+								</p>
+
+							</div>
+							<a href="#">Learn More</a>
+
+						</div>
+						<div class="col-md-4 wow zoomIn"data-wow-duration="1s">
+							<div class="icon">
+								<i class="fa fa-keyboard-o"></i>
+
+							</div>
+							<div class="details">
+								<h5>Easy to customize</h5>
+								<p>
+									It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.
+								</p>
+
+							</div>
+							<a href="#">Learn More</a>
+
+						</div>
+						<div class="col-md-4 wow fadeInRight"data-wow-duration="1.5s"data-wow-delay="1s">
+							<div class="icon">
+								<i class="fa fa-check-square-o"></i>
+
+							</div>
+							<div class="details">
+								<h5>Perfect solution</h5>
+								<p>
+									We don't want to conquer the cosmos, we simply want to extend the boundaries of Earth to the frontiers of the cosmos.
+								</p>
+
+							</div>
+							<a href="#">Learn More</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ==============================================
+		Footer
+		=============================================== -->
+		<section>
+			<footer>
+				<div class="container footer">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-md-6">
+								<ul>
+									<li class="wow lightSpeedIn"data-wow-delay="2s">
+
+										<a href="#"> <i class="fa fa-facebook"></i></a>
+									</li>
+									<li class="wow lightSpeedIn"data-wow-delay="1s">
+										<a href="#"> <i class="fa fa-twitter"></i></a>
+
+									</li>
+									<li class="wow lightSpeedIn">
+										<a href="#"> <i class="fa fa-google-plus"></i></a>
+
+									</li>
+								</ul>
+
+							</div>
+							<div class="col-md-6">
+								<p class="wow zoomIn">
+									&copy; Robin 2015
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
+		<script type="text/javascript" src="js/wow.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".rotate").textrotator({
+					animation : "fade",
+
+					speed : 1000
+				});
+
+			});
+
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				var wow = new WOW({
+					boxClass : 'wow', // animated element css class (default is wow)
+					animateClass : 'animated', // animation css class (default is animated)
+					offset : 0, // distance to the element when triggering the animation (default is 0)
+					mobile : false, // trigger animations on mobile devices (default is true)
+					live : false, // act on asynchronously loaded content (default is true)
+					callback : function(box) {
+						// the callback is fired every time an animation is started
+						// the argument that is passed in is the DOM node being animated
+					}
+				});
+				wow.init();
+
+			});
+
+		</script>
+	</body>
+</html>
